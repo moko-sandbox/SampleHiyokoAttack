@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 212157269263803768}
   - component: {fileID: 50515214834571400}
   - component: {fileID: 58458907450644244}
+  - component: {fileID: 114146523321630232}
   m_Layer: 0
   m_Name: HiyokoBallPrefab
   m_TagString: Untagged
@@ -77,6 +78,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.75000006
+--- !u!114 &114146523321630232
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1390680501624604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d65df09a68624bbc97ad8380765c05a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deleteTime: 10
 --- !u!212 &212157269263803768
 SpriteRenderer:
   m_ObjectHideFlags: 1
